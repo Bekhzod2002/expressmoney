@@ -1,0 +1,62 @@
+.howreceive {
+  width: 100%;
+  height: 1257px;
+  max-width: 1600px;
+  margin: 0 auto;
+  .howreceive__container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    .howreceive__wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+
+      .top-path {
+        width: 100%;
+        height: 8%;
+
+        .top_path_links {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          font-family: "Manrope", sans-serif;
+          justify-content: flex-start;
+          gap: 5.5px;
+          .top_path_links-first-step {
+            opacity: 0.5;
+          }
+          span {
+            padding-top: 5px;
+            opacity: 0.5;
+          }
+          .top_path_links-second-step {
+            opacity: 1;
+          }
+        }
+      }
+      //   Top Path End
+
+      .howreceive__content {
+        width: 100%;
+        height: 92%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .description {
+          width: 60%;
+          height: 100%;
+          //   border: 1px solid purple;
+        }
+        .select__amount_comp {
+          width: 40%;
+          height: 100%;
+          display: flex;
+        }
+      }
+    }
+  }
+}
