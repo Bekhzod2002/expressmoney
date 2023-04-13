@@ -1,5 +1,4 @@
 import {AiOutlineMenu} from 'react-icons/ai';
-import {BiUser} from 'react-icons/bi';
 import expressmoney from '../../Assets/images/Expressmoney.png';
 import user from '../../Assets/images/Group 28.png';
 import './header.scss';
@@ -17,12 +16,12 @@ const Header = () => {
                 </div>
                 <div className='menu'>
                     <div className="menulinks">
-                        <a className='item' ><Link>Как получить</Link></a>
-                        <a className='item'><Link>Как погасить</Link></a> 
-                        <a className='item'><Link>Программа лояльности</Link></a>
-                        <a className='item'><Link>О компании</Link></a>
-                        <a className='item'><Link>F.A.Q</Link></a>
-                    </div>
+                    <Link className='item'>Как получить</Link>                       
+                    <Link className='item'>Как погасить</Link>
+                    <Link className='item'>Программа лояльности</Link>                       
+                    <Link className='item'>О компании</Link>                       
+                    <Link className='item'>F.A.Q</Link>                    
+                </div>
                     <div className='contact__us'>
                         <p className='phonenumber'>8 800 700 91 15</p>
                         <hr className='line' />
