@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
 import "./HowReceive.scss";
-import SelectAmount from "../../components/SelectAmount/SelectAmount";
+import Calculator from "../../components/Calculator/Calculator";
 
 const HowReceive = () => {
   return (
@@ -26,7 +26,7 @@ const HowReceive = () => {
           <div className="howreceive__content">
             <div className="description"></div>
             <div className="select__amount_comp">
-              <SelectAmount />
+              <Calculator />
             </div>
           </div>
         </div>
