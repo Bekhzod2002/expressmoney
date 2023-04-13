@@ -1,7 +1,13 @@
 import React from "react";
+import Button from "../../components/Button/Button";
 import "./Home.scss";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Button />
+    </div>
+  );
 };
 
 export default Home;
