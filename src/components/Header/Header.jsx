@@ -1,5 +1,5 @@
 import { AiOutlineMenu } from "react-icons/ai";
-import { BiUser } from "react-icons/bi";
+
 import expressmoney from "../../assets/images/Expressmoney.png";
 import user from "../../assets/images/Group 28.png";
 import "./header.scss";

@@ -8,12 +8,10 @@ import "./App.scss";
 const AppContainer = styled.div`
   width: 100%;
   height: auto;
-  max-width: 1600px;
   margin: 0 auto;
   display: grid;
-  justify-content: flex-start;
-  background: red;
   justify-content: center;
+  background: #ffffff;
 `;
 
 const AppHomecontainer = styled.div`
@@ -23,9 +21,9 @@ const AppHomecontainer = styled.div`
 
 function App() {
   return (
-    <AppContainer className="home__container">
+    <AppContainer>
       <Header />
-      <AppHomecontainer className="home__wrapper">
+      <AppHomecontainer>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route />

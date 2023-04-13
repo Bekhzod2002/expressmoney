@@ -1,101 +1,103 @@
-.header{
+.header {
+  width: 100%;
+  height: 67px;
+  box-shadow: 0px 10px 40px rgba(2, 16, 91, 0.05);
+  display: flex;
+
+  .header__container {
     width: 100%;
-    height: 67px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(2, 16, 91, 0.05);
+    max-width: 1200px;
+    gap: 45px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    .header__container{
-        width: 1300px;
-        display: flex;
-        gap: 45px;
-        justify-content: space-between;
-        align-items: center;
-        .menuicon{
-            display: none;
-        }
 
-        .logoimg{
-            align-items: center;
-        }
-
-        .menu{
-            display: flex;
-            gap: 65px;
-            align-items: center;
-            .menulinks{
-                display: flex;
-                gap: 25px;
-                .item{
-                    font-family: 'Manrope';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 22px;
-                    text-align: center;
-                    flex: none;
-                    order: 0;
-                    flex-grow: 0;
-                }:focus{
-                    color: #005CEA;
-                }
-            }
-            .contact__us{
-                display: grid;
-                gap: 5px;
-                .phonenumber{
-                    font-family: 'Manrope';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 27px;
-                    letter-spacing: 0.065em;
-                    flex: none;
-                    order: 0;
-                    flex-grow: 0;
-                }
-                .line{
-                    width: 145px;
-                    padding: 0;
-                    height: 0;
-                    border: none;
-                    border-top: 2px dashed;
-                }
-                .freecall{
-                    width: 160px;
-                    font-family: 'Manrope';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 13px;
-                    line-height: 18px;
-                    color: #8899B4;
-                    flex: none;
-                    order: 2;
-                    flex-grow: 0;
-                }
-            }
-        }
-        .log_in{
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 9px 15px;
-            gap: 8px;
-            width: 108px;
-            height: 42px;
-            left: 1291.65px;
-            top: 12.5px;
-            background: #F3F6FF;
-            border: 1px solid #C6D1E1;
-            border-radius: 14px;
-            .usericon{
-                width: 24px;
-                height: 24px;
-                border-radius: 20px;
-                color: #FFFFFF;
-            }
-        }
+    .menuicon {
+      display: none;
     }
+
+    .logoimg {
+      align-items: center;
+    }
+
+    .menu {
+      display: flex;
+      gap: 65px;
+      align-items: center;
+      .menulinks {
+        display: flex;
+        gap: 25px;
+        .item {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          text-align: center;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+        :focus {
+          color: #005cea;
+        }
+      }
+      .contact__us {
+        display: grid;
+        gap: 5px;
+        .phonenumber {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0.065em;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+        .line {
+          width: 145px;
+          padding: 0;
+          height: 0;
+          border: none;
+          border-top: 2px dashed;
+        }
+        .freecall {
+          width: 160px;
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 18px;
+          color: #8899b4;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+      }
+    }
+    .log_in {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 9px 15px;
+      gap: 8px;
+      width: 108px;
+      height: 42px;
+      left: 1291.65px;
+      top: 12.5px;
+      background: #f3f6ff;
+      border: 1px solid #c6d1e1;
+      border-radius: 14px;
+      .usericon {
+        width: 24px;
+        height: 24px;
+        border-radius: 20px;
+        color: #ffffff;
+      }
+    }
+  }
 }
