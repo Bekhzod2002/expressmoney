@@ -5,7 +5,9 @@ function App() {
     <div className="App">
       <div className="home">
         <div className="home__container">
-          <div className="home__wrapper"></div>
+          <div className="home__wrapper">
+            <h1>Hello Express Money</h1>
+          </div>
         </div>
       </div>
     </div>
