@@ -13,9 +13,9 @@ const Home = () => {
                   first
                 </div>
                 <div className="expressimages">
-                  <img className="firstimg" src={firstimg} />
-                  <img className="secondimg" src={secondimg} />
-                  <img className="thirdimg" src={thirdimg} />
+                  <img className="firstimg" src={firstimg} alt="1" />
+                  <img className="secondimg" src={secondimg} alt="2" />
+                  <img className="thirdimg" src={thirdimg} alt="3" />
                 </div>
             </div>
         </div>
