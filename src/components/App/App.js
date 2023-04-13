@@ -10,7 +10,6 @@ const AppContainer = styled.div`
   height: auto;
   margin: 0 auto;
   display: grid;
-  justify-content: center;
   background: #ffffff;
 `;
 
