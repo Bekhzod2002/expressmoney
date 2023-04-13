@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-import Home from '../../pages/Home/Home';
+import Home from "../../pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import "./App.scss";
