@@ -4,6 +4,7 @@ import Home from "../../pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import "./App.scss";
+import HowReceive from "../../pages/HowReceive/HowReceive";
 
 const AppContainer = styled.div`
   width: 100%;
@@ -25,7 +26,7 @@ function App() {
       <AppHomecontainer>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route />
+          <Route path="/how-to-receive" element={<HowReceive />} />
           <Route />
           <Route />
           <Route />
