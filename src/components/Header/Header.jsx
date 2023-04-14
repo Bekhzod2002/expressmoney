@@ -16,7 +16,9 @@ const Header = () => {
         </div>
         <div className="menu">
           <div className="menulinks">
-            <Link className="item">Как получить</Link>
+            <Link to="/how-to-receive" className="item">
+              Как получить
+            </Link>
             <Link className="item">Как погасить</Link>
             <Link className="item">Программа лояльности</Link>
             <Link className="item">О компании</Link>
