@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 import Button from "../Button/Button";
 import "./Calculator.scss";
@@ -17,7 +17,7 @@ const Calculator = () => {
           </div>
           <div className="check_loyalty_percentage">
             <p className="check_loyalnost">
-              <MdOutlineCheckBoxOutlineBlank /> Карта лояльности
+              <input type="checkbox" /> Карта лояльности
             </p>
             <p className="check_percentage">1% в сутки</p>
           </div>

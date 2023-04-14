@@ -1,11 +1,10 @@
 .howreceive {
   width: 100%;
-  height: 1257px;
   max-width: 1600px;
   margin: 0 auto;
+
   .howreceive__container {
     width: 100%;
-    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
     .howreceive__wrapper {
@@ -15,7 +14,7 @@
 
       .top-path {
         width: 100%;
-        height: 8%;
+        height: 100px;
 
         .top_path_links {
           width: 100%;
@@ -41,20 +40,565 @@
 
       .howreceive__content {
         width: 100%;
-        height: 92%;
+        height: 100%;
         display: flex;
-        align-items: center;
+        margin-top: 25px;
         justify-content: space-between;
 
         .description {
           width: 60%;
           height: 100%;
-          //   border: 1px solid purple;
+
+          .desc_first {
+            width: 100%;
+            height: 100%;
+            max-height: 210px;
+
+            h3 {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              align-items: center;
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 40px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+            }
+            p {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              align-items: center;
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 25px;
+              letter-spacing: 0.01em;
+              color: #8899b4;
+            }
+          }
+          .desc_second {
+            width: 100%;
+            height: 100%;
+            max-height: 195px;
+            margin-top: 100px;
+
+            .desc_second_title {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              max-height: 41px;
+              h3 {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 41px;
+                letter-spacing: 0.01em;
+              }
+            }
+            .desc_second_content {
+              width: 100%;
+              height: 100%;
+              max-height: 129px;
+              padding: 27px 30px;
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              gap: 10px;
+              background: #f3f6ff;
+              border-radius: 24px;
+              margin-top: 40px;
+              p {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                color: #8899b4;
+              }
+            }
+          }
+          .desc_third {
+            margin-top: 100px;
+            width: 100%;
+            height: 100%;
+            max-height: 700px;
+            // border: 1px solid black;
+            .desc_third_title {
+              width: 100%;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              h3 {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 41px;
+                letter-spacing: 0.01em;
+              }
+            }
+            .desc_third_subtitle_1 {
+              width: 100%;
+              height: 50px;
+              margin-top: 30px;
+              display: flex;
+              align-items: center;
+
+              p {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                color: #8899b4;
+              }
+            }
+            .desc_third_block {
+              width: 100%;
+              height: 484px;
+              margin-top: 25px;
+              display: flex;
+              align-items: center;
+              flex-direction: row;
+              align-items: flex-start;
+              background: #f3f6ff;
+              border-radius: 24px;
+              padding: 27px 30px;
+              gap: 35px;
+              .desc_third_block-inner {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                gap: 19px;
+                align-items: center;
+
+                .inner_item {
+                  width: 100%;
+                  height: 45px;
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  justify-content: flex-start;
+                }
+              }
+            }
+          }
+          .desc_third_subtitle_2 {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            margin-top: 25px;
+            align-items: center;
+            justify-content: flex-start;
+
+            p {
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 25px;
+              letter-spacing: 0.01em;
+              color: #8899b4;
+            }
+          }
         }
+
         .select__amount_comp {
-          width: 40%;
-          height: 100%;
+          width: 38%;
+          height: auto;
           display: flex;
+        }
+      }
+    }
+  }
+  .how_this_works {
+    width: 100%;
+    margin-top: 72px;
+    max-width: 1600px;
+    height: 480px;
+    background: #f3f6ff;
+    border-radius: 40px;
+    .how_this_works_container {
+      width: 100%;
+      max-width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .how_this_works_container-left {
+        width: 60%;
+        height: 90%;
+
+        .left_title {
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: center;
+
+          h3 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 55px;
+            letter-spacing: 0.01em;
+            background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          }
+        }
+        .left_content {
+          width: 100%;
+          margin-top: 58px;
+          height: 75%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .left_content-item {
+            height: 290px;
+            .card {
+              width: 214px;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              position: relative;
+
+              .card_top {
+                position: absolute;
+                top: 0;
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                z-index: 3;
+                overflow: hidden;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .card_bottom {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 195px;
+                background: #141927;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+
+                .card_bottom_desc {
+                  position: absolute;
+                  width: 90%;
+                  height: 90px;
+                  margin-top: 90px;
+                  margin-left: 10px;
+                  bottom: 10px;
+                  color: #fff;
+
+                  .title {
+                    width: 100%;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "Manrope";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #fff;
+                    letter-spacing: 0.01em;
+                  }
+                  .process {
+                    width: 100%;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 0.01em;
+                    color: #848ba4;
+                  }
+                  .time {
+                    width: 100%;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #0f6dff;
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 0.01em;
+                  }
+                }
+              }
+            }
+            .arrow {
+              width: 20px;
+              height: 100%;
+              padding-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fourth_step {
+    width: 100%;
+    height: 632px;
+    margin: 80px auto;
+
+    .fourth_step_container {
+      width: 100%;
+      height: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      .fourth_step_inner {
+        width: 60%;
+        height: 100%;
+
+        .inner_title {
+          width: 100%;
+          height: 41px;
+          display: flex;
+          align-items: center;
+
+          h3 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 41px;
+            letter-spacing: 0.01em;
+            background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          }
+        }
+        .inner_card {
+          width: 100%;
+          height: 316px;
+          margin-top: 25px;
+          border-radius: 24px;
+          background: #f3f6ff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 27px 30px;
+          .inner_item {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+
+            .inner_item_line {
+              margin-top: 3px;
+              margin-left: 20px;
+            }
+          }
+        }
+        .inner_subtitle {
+          margin-top: 25px;
+          width: 100%;
+          height: 225px;
+          p {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            color: #8899b4;
+          }
+        }
+      }
+    }
+  }
+
+  .fifth_step {
+    width: 100%;
+    height: 500px;
+    max-width: 1600px;
+    margin-top: 72px;
+
+    .fifth_container {
+      width: 100%;
+      height: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      .fifth_inner {
+        width: 60%;
+        height: 100%;
+
+        .range {
+          width: 100%;
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          h3 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          }
+          .range_left {
+            width: 40%;
+            height: 100%;
+
+            .left_item {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              gap: 15px;
+            }
+          }
+          .range_right {
+            width: 40%;
+            height: 100%;
+
+            .right_item {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              gap: 15px;
+            }
+          }
+        }
+        .loan {
+          margin-top: 62px;
+          width: 100%;
+          height: 280px;
+          display: flex;
+          align-items: center;
+
+          .loan_inner {
+            width: 100%;
+            height: 240px;
+            left: 200px;
+            top: 2974.5px;
+            background: linear-gradient(90.74deg, #0f6dff 0%, #005cea 100%);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .inner_wrapper {
+              width: 87%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+
+              .inner_left {
+                width: 55%;
+                height: 100%;
+
+                h3 {
+                  width: 100%;
+                  height: 41px;
+                  display: flex;
+                  align-items: center;
+                  font-family: "Manrope";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 30px;
+                  line-height: 41px;
+                  letter-spacing: 0.01em;
+                  color: #ffffff;
+                  margin-top: 10px;
+                }
+                p {
+                  margin-top: 15px;
+                  width: 100%;
+                  height: 54px;
+                  font-family: "Manrope";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 20px;
+                  line-height: 27px;
+                  letter-spacing: 0.01em;
+                  color: #fff;
+                }
+                .send_request {
+                  margin-top: 20px;
+                  width: 260px;
+                  height: 60px;
+                  border: 1px solid #222738;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 22px;
+                  .send {
+                    text-transform: uppercase;
+                    gap: 15px;
+                    width: 90%;
+                    height: 50px;
+                    color: #fff;
+                    background: linear-gradient(
+                      153.6deg,
+                      #222738 0%,
+                      #131724 81.94%,
+                      #101420 100%
+                    );
+                    border-radius: 16px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  }
+                }
+              }
+              .inner_right {
+                width: 45%;
+                height: 120%;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
         }
       }
     }
