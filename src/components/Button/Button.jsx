@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as ArrowRightSvg } from "../../Assets/svg/ArrowRight.svg";
+import { ReactComponent as ArrowRightSvg } from "../../assets/svg/ArrowRight.svg";
 import "./Button.scss";
 const Button = () => {
   const default__btn__content = "Оформить заявку";

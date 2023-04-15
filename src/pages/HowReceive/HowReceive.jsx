@@ -2,21 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
 import "./HowReceive.scss";
-import frame88 from "../../Assets/images/frame88.png";
+import frame88 from "../../assets/images/frame88.png";
 import Calculator from "../../components/Calculator/Calculator";
 
-import arrow from "../../Assets/images/double_arrow.png";
-import how_it_works_1 from "../../Assets/images/how_it_works_1.png";
-import how_it_works_2 from "../../Assets/images/how_it_works_2.png";
-import how_it_works_3 from "../../Assets/images/how_it_works_3.png";
-import frame_881 from "../../Assets/images/881.png";
-import frame_882 from "../../Assets/images/882.png";
-import frame_883 from "../../Assets/images/883.png";
-import frame_884 from "../../Assets/images/884.png";
-import dottedLine from "../../Assets/images/dot_green_line.png";
-import smile_man from "../../Assets/images/smile_man.png";
-import range_blue_dot from "../../Assets/images/range_blue_dot.png";
-import { ReactComponent as ArrowRightSvg } from "../../Assets/svg/ArrowRight.svg";
+import arrow from "../../assets/images/double_arrow.png";
+import how_it_works_1 from "../../assets/images/how_it_works_1.png";
+import how_it_works_2 from "../../assets/images/how_it_works_2.png";
+import how_it_works_3 from "../../assets/images/how_it_works_3.png";
+import frame_881 from "../../assets/images/881.png";
+import frame_882 from "../../assets/images/882.png";
+import frame_883 from "../../assets/images/883.png";
+import frame_884 from "../../assets/images/884.png";
+import dottedLine from "../../assets/images/dot_green_line.png";
+import smile_man from "../../assets/images/smile_man.png";
+import range_blue_dot from "../../assets/images/range_blue_dot.png";
+import { ReactComponent as ArrowRightSvg } from "../../assets/svg/ArrowRight.svg";
 
 const HowReceive = () => {
   return (

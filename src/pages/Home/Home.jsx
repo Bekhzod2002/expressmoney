@@ -1,19 +1,19 @@
 import React from "react";
-import frame from '../../Assets/images/Frame 118.png';
-import baseimg from '../../Assets/images/Frame 57.png';
-import standardimg from '../../Assets/images/Frame 57 (2).png';
-import premiumimg from '../../Assets/images/Frame 57 (1).png';
-import like from '../../Assets/images/like.png';
-import heart from '../../Assets/images/heart.png';
-import shield from '../../Assets/images/shield.png';
-import sber from '../../Assets/images/sber.png';
-import rubl from '../../Assets/images/rubl.png';
-import energy from '../../Assets/images/energy.png';
-import how_it_works_1 from "../../Assets/images/how_it_works_1.png";
-import how_it_works_2 from "../../Assets/images/how_it_works_2.png";
-import how_it_works_3 from "../../Assets/images/how_it_works_3.png";
-import carts from '../../Assets/images/carts.png'
-import arrow from "../../Assets/images/double_arrow.png";
+import frame from '../../assets/images/Frame 118.png';
+import baseimg from '../../assets/images/Frame 57.png';
+import standardimg from '../../assets/images/Frame 57 (2).png';
+import premiumimg from '../../assets/images/Frame 57 (1).png';
+import like from '../../assets/images/like.png';
+import heart from '../../assets/images/heart.png';
+import shield from '../../assets/images/shield.png';
+import sber from '../../assets/images/sber.png';
+import rubl from '../../assets/images/rubl.png';
+import energy from '../../assets/images/energy.png';
+import how_it_works_1 from "../../assets/images/how_it_works_1.png";
+import how_it_works_2 from "../../assets/images/how_it_works_2.png";
+import how_it_works_3 from "../../assets/images/how_it_works_3.png";
+import carts from '../../assets/images/carts.png'
+import arrow from "../../assets/images/double_arrow.png";
 import "./Home.scss";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/footer/footer";
