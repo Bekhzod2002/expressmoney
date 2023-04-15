@@ -19,8 +19,12 @@ const Header = () => {
             <Link to="/how-to-receive" className="item">
               Как получить
             </Link>
-            <Link className="item">Как погасить</Link>
-            <Link className="item">Программа лояльности</Link>
+            <Link to="/repay" className="item">
+              Как погасить
+            </Link>
+            <Link to="/loyalty" className="item">
+              Программа лояльности
+            </Link>
             <Link className="item">О компании</Link>
             <Link className="item">F.A.Q</Link>
           </div>
