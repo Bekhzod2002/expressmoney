@@ -151,6 +151,10 @@
                                         font-style: 16px;
                                         line-height: 21px;
                                         color:#9FC3F7;
+                                        &:hover{
+                                            transform: scale(1.05);
+                                            transition: 1s;
+                                        }
                                     }
                                 }
                                 .infocenter{
@@ -173,6 +177,10 @@
                                         font-style: 16px;
                                         line-height: 21px;
                                         color:#9FC3F7;
+                                        &:hover{
+                                            transform: scale(1.05);
+                                            transition: 1s;
+                                        }
                                     }
                                 }
                             }
@@ -198,6 +206,10 @@
                         font-style: 16px;
                         line-height: 21px;
                         color:#9FC3F7;
+                        &:hover{
+                            transform: scale(1.05);
+                            transition: 1s;
+                        }
                     }
                 }
                 .second{
@@ -212,6 +224,10 @@
                         font-style: 16px;
                         line-height: 21px;
                         color:#9FC3F7;
+                        &:hover{
+                            transform: scale(1.05);
+                            transition: 1s;
+                        }
                     }
                 }
                 .third{
@@ -226,6 +242,10 @@
                         font-style: 16px;
                         line-height: 21px;
                         color:#9FC3F7;
+                        &:hover{
+                            transform: scale(1.05);
+                            transition: 1s;
+                        }
                     }
                 }
             }
