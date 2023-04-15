@@ -1,0 +1,279 @@
+.stepone {
+  width: 100%;
+  height: 100%;
+  .stepone__container {
+    width: 100%;
+    height: 100%;
+    max-width: 763px;
+
+    .repay__form {
+      width: 100%;
+      height: 100%;
+      .repay__titleBlock {
+        width: 100%;
+        height: 100%;
+
+        .repay__title {
+          width: 100%;
+          height: 55px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          h3 {
+            font-family: "Manrope", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 55px;
+            letter-spacing: 0.01em;
+            color: #000;
+          }
+        }
+        .repay__subtitle {
+          width: 100%;
+          height: 50px;
+          margin-top: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          p {
+            font-family: "Manrope", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            color: #8899b4;
+            span {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+    .repay__blue__card {
+      width: 100%;
+      height: 712px;
+      margin-top: 25px;
+      background: #f3f6ff;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .repay__white__card {
+        width: 95%;
+        height: 663px;
+        background: #fff;
+        border-radius: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .repay__white__card__inner {
+          width: 95%;
+          height: 95%;
+
+          .agreement__summ {
+            width: 100%;
+            height: 123px;
+            background: #f3f6ff;
+            border: 1px solid #c6d1e1;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .summ__wrapper {
+              width: 95%;
+              height: 90%;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+
+              p {
+                font-family: "Manrope", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #0f6dff;
+              }
+              input[type="text"] {
+                width: 100%;
+                height: 50px;
+                border-radius: 16px;
+                background: #fff;
+                padding-left: 15px;
+                margin-top: 10px;
+                outline: none !important;
+                border: 1px solid #c6d1e1;
+              }
+              .summ_left {
+                width: 55%;
+                height: 100%;
+                padding-top: 10px;
+              }
+              .summ_right {
+                width: 35%;
+                height: 100%;
+                padding-top: 10px;
+                position: relative;
+              }
+            }
+          }
+          .agreement_card {
+            width: 100%;
+            height: 380px;
+            margin-top: 25px;
+            border-radius: 18px;
+            background-image: url("../../../../assets/images/7.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .agreement__card_form {
+              width: 358px;
+              height: 278px;
+              margin-left: 25px;
+
+              p {
+                color: #0f6dff;
+                font-family: "Manrope", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                margin-left: 20px;
+                line-height: 22px;
+              }
+              input {
+                height: 50px;
+                background-color: #fff;
+                padding-left: 15px;
+                border-radius: 16px;
+                outline: none !important;
+                border: 1px solid #c6d1e1;
+              }
+
+              .cardform__group {
+                width: 100%;
+                height: 92px;
+                display: grid;
+                align-items: center;
+              }
+              .cardform__group-expire {
+                width: 100%;
+                height: 92px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .group_left {
+                  width: 142px;
+
+                  .month_day {
+                    width: 100%;
+                    height: 50px;
+                    background-color: #fff;
+                    padding-left: 15px;
+                    border-radius: 16px;
+                    outline: none !important;
+                    border: 1px solid #c6d1e1;
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 5px;
+                    align-items: center;
+
+                    select {
+                      width: 40%;
+                      height: 100%;
+                      border: none;
+                      color: #8899b4;
+                      outline: none !important;
+                      option {
+                        border: none;
+                        background-color: #fff;
+                      }
+                    }
+                  }
+                }
+                .group_right {
+                  width: 65px;
+
+                  input {
+                    width: 100%;
+                    margin-left: 8px;
+                    margin-top: 5px;
+                  }
+                }
+              }
+            }
+          }
+          .agreement_pay {
+            width: 100%;
+            height: 60px;
+            margin-top: 25px;
+            border: 1px solid #8899b4;
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .pay {
+              width: 98%;
+              height: 50px;
+              background: linear-gradient(90.74deg, #0f6dff 0%, #005cea 100%);
+              border-radius: 16px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+              color: #fff;
+              p {
+                font-family: "SF Pro Display", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .repay__contact {
+      width: 100%;
+      height: 50px;
+      margin-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .repay__contact-inner {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          font-family: "Manrope", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 0.01em;
+          color: #000;
+          .number {
+            color: #0f6dff;
+          }
+        }
+      }
+    }
+  }
+}
