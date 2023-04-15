@@ -61,7 +61,7 @@ const Footer = () => {
                                     членом СРО «МиР» с 29 декабря 2021 <br/> 
                                     года <br/>
                                     <br/>
-                                    <span className="item">https://npmir.ru</span><br/>
+                                    <Link className="item">https://npmir.ru</Link><br/>
                                     <br/>
                                     107078, г. Москва, Орликов переулок, д.5, <br/> 
                                     стр.1, этаж 2, пом.11 <br/>
@@ -78,15 +78,15 @@ const Footer = () => {
                             <div className="second">
                                     Банк России <br/>
                                     <br/>
-                                    <span className="item"> https://cbr.ru</span> <br/>
+                                    <Link className="item"> https://cbr.ru</Link> <br/>
                                     <br/>
                                     Интернет-приемная Банка России<br/>
                                     <br/>
-                                    <span className="item">https://cbr.ru/Reception</span> <br/>
+                                    <Link className="item">https://cbr.ru/Reception</Link> <br/>
                                     <br/>
                                     Реестр микрофинансовых организаций <br/>
                                     <br/>
-                                    <span className="item">https://cbr.ru/microfinance/registry</span> <br/>
+                                    <Link className="item">https://cbr.ru/microfinance/registry</Link> <br/>
                                     <br/>
                                     <br/>
                                     <br/>
@@ -98,7 +98,7 @@ const Footer = () => {
                                 направить обращение в Службу <br/> 
                                 финансового уполномоченного <br/>
                                 <br/>
-                               <span className="item">https://finombudsman.ru</span> <br/>
+                               <Link className="item">https://finombudsman.ru</Link> <br/>
                                <br/>
                                 119017, г. Москва, Старомонетный пер., <br/> 
                                 дом 3 <br/>

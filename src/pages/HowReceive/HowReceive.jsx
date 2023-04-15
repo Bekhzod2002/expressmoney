@@ -17,7 +17,9 @@ import dottedLine from "../../assets/images/dot_green_line.png";
 import smile_man from "../../assets/images/smile_man.png";
 import range_blue_dot from "../../assets/images/range_blue_dot.png";
 import { ReactComponent as ArrowRightSvg } from "../../assets/svg/ArrowRight.svg";
+
 import Footer from "../../components/Footer/footer";
+
 
 const HowReceive = () => {
   return (
