@@ -6,7 +6,7 @@ import styled from "styled-components";
 import "./App.scss";
 import HowReceive from "../../pages/HowReceive/HowReceive";
 import Repay from "../../pages/Repay/Repay";
-
+import ProgramLoyalty from "../../pages/ProgramLoyalty/Loyalty";
 const AppContainer = styled.div`
   width: 100%;
   height: auto;
@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/how-to-receive" element={<HowReceive />} />
           <Route path="/repay" element={<Repay />} />
-          <Route />
+          <Route path="/loyalty" element={<ProgramLoyalty />} />
           <Route />
           <Route />
         </Routes>
