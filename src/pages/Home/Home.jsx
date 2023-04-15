@@ -9,6 +9,10 @@ import shield from '../../assets/images/shield.png';
 import sber from '../../assets/images/sber.png';
 import rubl from '../../assets/images/rubl.png';
 import energy from '../../assets/images/energy.png';
+import sendimg from '../../assets/images/sendimg.png';
+import getimg from '../../assets/images/getimg.png';
+import location from '../../assets/images/location.png';
+import frame156 from '../../assets/images/Frame 156.png';
 import how_it_works_1 from "../../assets/images/how_it_works_1.png";
 import how_it_works_2 from "../../assets/images/how_it_works_2.png";
 import how_it_works_3 from "../../assets/images/how_it_works_3.png";
@@ -17,6 +21,11 @@ import arrow from "../../assets/images/double_arrow.png";
 import "./Home.scss";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/footer/footer";
+import { ReactComponent as ArrowRightSvg } from "../../assets/svg/ArrowRight.svg";
+import { Link } from "react-router-dom";
+import smile_man from "../../assets/images/smile_man.png";
+import Calculator from "../../components/Calculator/Calculator";
+
 
 const Home = () => {
   return (
@@ -209,7 +218,127 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Footer/>
+        <div className="loan">
+              <div className="loan_inner">
+                <div className="inner_wrapper">
+                  <div className="inner_left">
+                    <h3>Первый заём</h3>
+                    <p>
+                      от 1 % на срок до 30 дней <br />
+                      на сумму до 15 000 ₽
+                    </p>
+                    <div className="send_request">
+                      <Link to="/" className="send">
+                        Оформить заявку
+                        <ArrowRightSvg />
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="inner_right">
+                    <img src={smile_man} alt="Smile man" />
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div className="liveefir">
+          <div className="live__container">
+            <div className="left_live">
+              <div className="leftlive__container">
+                  <div className="workservice">
+                      <h6>Прямая трансляция <br/> работы сервиса</h6>
+                  </div>
+                  <div className="firstclient">
+                    <div className="firstclient__container">
+                      <p>Дмитрий С.</p>
+                      <div>
+                        <img src={getimg} alt="get"/>
+                        <p className="getzaym">Получил займ 10 000 руб.</p>
+                      </div>
+                      <div>
+                        <p className="minute">1 мин. назад</p>
+                        <div>
+                            <img src={location} alt="location" />
+                            <p>Новосибирск</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="secondclient">
+                    <div className="secondclient__container">
+                      <p>Александр П.</p>
+                      <div>
+                        <img src={sendimg} alt="get"/>
+                        <p className="getzaym">Внес 2 800 руб. на счет погашения займа</p>
+                      </div>
+                      <div>
+                        <p className="minute">3 мин. назад</p>
+                        <div>
+                            <img src={location} alt="location" />
+                            <p>Владивосток</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="thirdclient">
+                    <div className="thirdclient__container">
+                      <p>Наталья К.</p>
+                      <div>
+                        <img src={getimg} alt="get"/>
+                        <p className="getzaym">Получил займ 15 000 руб.</p>
+                      </div>
+                      <div>
+                        <p className="minute">5 мин. назад</p>
+                        <div>
+                            <img src={location} alt="location" />
+                            <p>Москва</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="fourthclient">
+                    <div className="fourthclient__container">
+                      <p>Андрей Б.</p>
+                      <div>
+                        <img src={sendimg} alt="get"/>
+                        <p className="getzaym">Погасил 3 000 руб. досрочно</p>
+                      </div>
+                      <div>
+                        <p className="minute">8 мин. назад</p>
+                        <div>
+                            <img src={location} alt="location" />
+                            <p>Краснодар</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+            <div className="right_live">
+              <div className="rightlive__container" >
+                <div className="calculator">
+                  <Calculator/>
+                </div>
+                <div>
+                  <p>
+                    Старт сервиса 2020 году, обслужили   
+                    десятки тысяч клиентов
+                  </p>
+                </div>
+                <div>
+                  <img src={frame156} alt="" />
+                </div>
+                <div>
+                  <p>Получение займов в микро-финансовых организациях пользуется у Россиян большим спросом</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Footer/>
+        </div>
+
       </div>
     </div>
   );

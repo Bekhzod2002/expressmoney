@@ -696,5 +696,573 @@
         }
       }
     }
+    .loan {
+      margin-top: 131px;
+      width: 100%;
+      height: 367px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .loan_inner {
+        width: 100%;
+        max-width: 1200px;
+        height: 367px;
+        left: 200px;
+        top: 2974.5px;
+        background: linear-gradient(90.74deg, #0f6dff 0%, #005cea 100%);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .inner_wrapper {
+          width: 87%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+
+          .inner_left {
+            width: 55%;
+            height: 100%;
+            margin-top: 65px;
+
+            h3 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 40px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+              flex: none;
+              order: 0;
+              margin-top: 10px;
+            }
+            p {
+              margin-top: 20px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 30px;
+              line-height: 41px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+              flex: none;
+              order: 1;
+              flex-grow: 0;
+            }
+            .send_request {
+              margin-top: 25px;
+              width: 370px;
+              height: 60px;
+              border: 1px solid #222738;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 22px;
+              .send {
+                text-transform: uppercase;
+                gap: 15px;
+                width: 97%;
+                height: 50px;
+                color: #fff;
+                background: linear-gradient(
+                  153.6deg,
+                  #222738 0%,
+                  #131724 81.94%,
+                  #101420 100%
+                );
+                border-radius: 16px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+          .inner_right {
+            width: 500px;
+            height: 500.15px;
+
+            img {
+              width: 500px;
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+    .liveefir{
+      width: 100%;
+      height: 800px;
+      background: linear-gradient(107.62deg, #F3F6FF 0%, #BFCEE2 100%);
+      border-radius: 40px 40px 0px 0px;
+      margin-top: 136px;
+      display: flex;
+      justify-content: center;
+
+      .live__container{
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background: url(../../assets/images/map.png);
+        display: flex;
+        justify-content: space-between;
+        .left_live{
+          width: 451px;
+          height: 624px;
+          margin-top: 51px;
+          .leftlive__container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            width: 100%;
+            height: 100%;
+            .workservice{
+              font-style: normal;
+              font-weight: 600;
+              font-size: 40px;
+              line-height: 45px;
+              letter-spacing: 0.01em;
+              
+              /* Linear */
+              
+              background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-fill-color: transparent;
+              
+              
+              /* Inside auto layout */
+              
+              flex: none;
+              order: 0;
+              flex-grow: 0;
+            }
+            .firstclient{
+              width: 295px;
+              height: 101px;
+              .firstclient__container{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                gap: 15px;
+                p{
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  /* identical to box height */
+                  
+                  letter-spacing: 0.01em;
+                  
+                  /* #8899B4 */
+                  
+                  color: #8899B4;
+                  
+                  
+                  /* Inside auto layout */
+                  
+                  flex: none;
+                  order: 0;
+                  flex-grow: 0;
+                }
+                div{
+                  display: flex;
+                  gap: 20px;
+                  .getzaym{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.01em;
+                    
+                    /* Linear */
+                    
+                    background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                  }
+                }
+                div{
+                  display: flex;
+                  gap: 15px;
+                  .minute{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                  p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                }
+
+              }
+            }
+            .secondclient{
+              width: 451px;
+              height: 101px;
+              .secondclient__container{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                gap: 15px;
+                p{
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  /* identical to box height */
+                  
+                  letter-spacing: 0.01em;
+                  
+                  /* #8899B4 */
+                  
+                  color: #8899B4;
+                  
+                  
+                  /* Inside auto layout */
+                  
+                  flex: none;
+                  order: 0;
+                  flex-grow: 0;
+                }
+                div{
+                  display: flex;
+                  gap: 20px;
+                  .getzaym{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.01em;
+                    
+                    /* Linear */
+                    
+                    background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                  }
+                }
+                div{
+                  display: flex;
+                  gap: 15px;
+                  .minute{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                  p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                }
+
+              }
+            }
+            .thirdclient{
+              width: 451px;
+              height: 101px;
+              .thirdclient__container{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                gap: 15px;
+                p{
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  /* identical to box height */
+                  
+                  letter-spacing: 0.01em;
+                  
+                  /* #8899B4 */
+                  
+                  color: #8899B4;
+                  
+                  
+                  /* Inside auto layout */
+                  
+                  flex: none;
+                  order: 0;
+                  flex-grow: 0;
+                }
+                div{
+                  display: flex;
+                  gap: 20px;
+                  .getzaym{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.01em;
+                    
+                    /* Linear */
+                    
+                    background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                  }
+                }
+                div{
+                  display: flex;
+                  gap: 15px;
+                  .minute{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                  p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                }
+
+              }
+            }
+            .fourthclient{
+              width: 451px;
+              height: 101px;
+              .fourthclient__container{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                gap: 15px;
+                p{
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  /* identical to box height */
+                  
+                  letter-spacing: 0.01em;
+                  
+                  /* #8899B4 */
+                  
+                  color: #8899B4;
+                  
+                  
+                  /* Inside auto layout */
+                  
+                  flex: none;
+                  order: 0;
+                  flex-grow: 0;
+                }
+                div{
+                  display: flex;
+                  gap: 20px;
+                  .getzaym{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.01em;
+                    
+                    /* Linear */
+                    
+                    background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                  }
+                }
+                div{
+                  display: flex;
+                  gap: 15px;
+                  .minute{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                  p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 0.01em;
+                    
+                    /* #8899B4 */
+                    
+                    color: #8899B4;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                }
+
+              }
+            }
+          }
+        }
+        .right_live{
+          width: 481px;
+          height: 578px;
+          margin-top: 51px;
+          .rightlive__container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: center;
+            gap: 20px;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      
+    }
   }
 }
