@@ -1,6 +1,6 @@
 import { AiOutlineMenu } from "react-icons/ai";
-import expressmoney from "../../Assets/images/Expressmoney.png";
-import user from "../../Assets/images/Group 28.png";
+import expressmoney from "../../assets/images/Expressmoney.png";
+import user from "../../assets/images/Group 28.png";
 import "./header.scss";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,9 @@ const Header = () => {
             <Link to="/how-to-receive" className="item">
               Как получить
             </Link>
-            <Link className="item">Как погасить</Link>
+            <Link to="/repay" className="item">
+              Как погасить
+            </Link>
             <Link className="item">Программа лояльности</Link>
             <Link className="item">О компании</Link>
             <Link className="item">F.A.Q</Link>
