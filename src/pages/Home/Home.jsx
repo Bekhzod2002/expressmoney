@@ -9,8 +9,14 @@ import shield from '../../Assets/images/shield.png';
 import sber from '../../Assets/images/sber.png';
 import rubl from '../../Assets/images/rubl.png';
 import energy from '../../Assets/images/energy.png';
+import how_it_works_1 from "../../Assets/images/how_it_works_1.png";
+import how_it_works_2 from "../../Assets/images/how_it_works_2.png";
+import how_it_works_3 from "../../Assets/images/how_it_works_3.png";
+import carts from '../../Assets/images/carts.png'
+import arrow from "../../Assets/images/double_arrow.png";
 import "./Home.scss";
 import Button from "../../components/Button/Button";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
   return (
@@ -83,16 +89,127 @@ const Home = () => {
           <div className="advantzagalovka">
             <h6 className="advanthead">Преимущества</h6>
             <img src={frame} alt="frame" />
-            <p>Наши продукты лучшие на рынке!</p>
+            <p className="ourproducts">Наши продукты лучшие на рынке!</p>
           </div>
+          <div className="tags">
+              <div className="momentalno">
+                <div style={{display: 'flex', gap: '10px'}}>
+                  <img src={energy} alt="energy" />
+                  <span style={{fontSize: '30px', color: '#000000'}} >Моментально <br/>  </span>
+                </div>
+                 <p className="energytxt"> Деньги за 5 минут <br/> после одобрения </p>
+              </div>
+              <div className="shield"> 
+                <div style={{display: 'flex', gap: '10px'}}>
+                  <img src={shield} alt="shield" />
+                  <span style={{fontSize: '30px', color: '#000000'}} >Без страховки</span>
+                </div>
+                <p className="shieldtxt">Без доп платежей <br/> к выданной сумме</p>
+              </div>
+              <div className="sber"> 
+                <div style={{display: 'flex', gap: '10px'}}>
+                  <img src={sber} alt="sber" />
+                  <span style={{fontSize: '30px', color: '#000000'}} >Одобрение 99%</span>
+                </div>
+                <p className="sbertxt">Безопасность персональных <br/> данных</p>
+              </div>
+          </div>
+          <div className="tags2">
+            <div className="rubl"> 
+                  <div style={{display: 'flex', gap: '10px'}}>
+                    <img src={rubl} alt="rubl" />
+                    <span style={{fontSize: '30px', color: '#000000'}} >Без переплат</span>
+                  </div>
+                  <p className="rubltxt">Погашение займа за 24 часа <br/> без комиссии</p>
+                </div>
+                <div className="heart"> 
+                  <div style={{display: 'flex', gap: '10px'}}>
+                    <img src={heart} alt="heart" />
+                    <span style={{fontSize: '30px', color: '#000000'}} >Любим клиентов</span>
+                  </div>
+                  <p className="hearttxt">Премиум услуги для постоянных <br/> клиентов компании</p>
+                </div>
+                <div className="like"> 
+                  <div style={{display: 'flex', gap: '10px'}}>
+                    <img src={like} alt="like" />
+                    <span style={{fontSize: '30px', color: '#000000'}} >Работаем честно</span>
+                  </div>
+                  <p className="liketxt">Улучшение Вашей <br/> кредитной истории</p>
+                </div>
 
-
-
-
+          </div>
         </div>
-        <div className="howitworks">
+        <div className="howitworks">  
+            <div className="howitworks_container">
+                <div className="howitworkzagolovka">
+                  <p className="_head">Как это работает</p>
+                  <img src={frame} alt="frame" />
+                  <p className="getmoney" >Получите деньги в считанные минуты</p>
+                </div>
+            </div>
+            <div className="sequence">
+                  <div className="applied">
+                    <div className="appliedimg">
+                      <img src={how_it_works_1} alt="/" />
+                    </div>
+                    <div className="decor">
+                      <p className="makerequest">Оформите заявку</p>
+                      <p className="instantly">Это делается <br/> <span style={{color: '#0000ff'}}>моментально</span></p>
+                    </div>
+                  </div>
+                  <div className="arrow">
+                    <div className="arrowcontainer">
+                      <img src={arrow} alt="arrow" />
+                    </div>
+                  </div>
+                  <div className="applied">
+                    <div className="appliedimg">
+                      <img src={how_it_works_2} alt="/" />
+                    </div>
+                    <div className="decor">
+                      <p  className="makerequest">Дождитесь ответа</p>
+                      <p className="instantly">Мы дадим ответ в течении <br/> <span style={{color: '#0000ff'}}>5 минут</span></p>
+                    </div>
+                  </div>
+                  <div className="arrow">
+                    <div className="arrowcontainer">
+                      <img src={arrow} alt="arrow" />
+                    </div>
+                  </div>
+                  <div className="applied">
+                    <div className="appliedimg">
+                      <img src={how_it_works_3} alt="/" />
+                    </div>
+                    <div className="decor">
+                      <p  className="makerequest">Получите деньги</p>
+                      <p className="instantly">Средства поступят на Вашу карту<br/> <span style={{color: '#0000ff'}}>сразу</span></p>
+                    </div>
+                  </div>
 
-        </div>  
+            </div>
+        </div>
+        <div className="convenient_way">
+          <div className="convenientway__container">
+            <div className="way_left">
+              <div className="left_container">
+                <h6 className="getwayhead">Удобный способ <br/> получения</h6>
+                <img style={{marginTop: '20px'}} src={frame} alt="frame" />
+                <p className="aboutcarts">
+                  Мы работаем со всеми основными карточными <br/>системами Росиии и мира. <br/>
+                  <br/>
+                  Карточные платежи в нашей компании, <br/>  обрабатываются с использованием
+                  наиболее <br/>  безопастных технологий основанных на <br/>  стандартах PCI DSS
+                </p>
+              </div>
+            </div>
+            <div className="way_right">
+              <div className="right_container">
+                <img src={carts} alt="carts" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer/>
       </div>
     </div>
   );

@@ -1,0 +1,234 @@
+.footer{
+    width: 100%;
+    max-width: 1600.65px;
+    height: 1256.7px;
+    background: linear-gradient(153.6deg, #222738 0%, #101420 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .footer__container{
+        width: 100%;
+        height: 93%;
+        max-width: 1202px;
+        
+        .menufoot{
+            width: 100%;
+            height: 100%;
+            .menufoot__container{
+                display: flex;
+                gap: 130px;
+                .contactus{
+                    display: flex;
+                    justify-content: center;
+                    .contact_container{
+                        .phonenumber {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 40px;
+                            line-height: 55px;
+                            /* identical to box height */
+                            
+                            letter-spacing: 0.07em;
+                            
+                            /* #FFFFFF */
+                            
+                            color: #FFFFFF;
+                            
+                            
+                            /* Inside auto layout */
+                            
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                          }
+                          .line {
+                            width: 320px;
+                            padding: 0;
+                            height: 0;
+                            border: none;
+                            border-top: 2px dashed;
+                          }
+                          .freecall {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            
+                            /* #8899B4 */
+                            
+                            color: #8899B4;
+                            
+                            
+                            /* Inside auto layout */
+                            
+                            flex: none;
+                            order: 2;
+                            flex-grow: 0;
+                          }
+                    }
+                }
+                .search{
+                    width: 741px;
+                    height: 100%;
+                    .search__container{
+                        width: 100%;
+                        height: 100%;
+                        .searchbar{
+                            width: 100%;
+                            height: 60px;
+                            background: linear-gradient(107.62deg, #F3F6FF 0%, #BFCEE2 100%);
+                            border-radius: 16px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .searchpart{
+                                width: 580px;
+                                height: 45px;
+                                display: flex;
+                                gap: 10px;
+                                align-items: center;
+                                outline-color: #0F6DFF;
+                                .searchinput{
+                                    border: none;
+                                    background: none;
+                                    width: 90%;
+                                    outline: none;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    line-height: 27px;
+                                    letter-spacing: 0.01em;
+                                    
+                                    /* #8899B4 */
+                                    
+                                    color: #8899B4;
+                                }
+                            }
+                            .searchbtn{
+                                width: 140px;
+                                height: 46px;
+                                background: linear-gradient(90.74deg, #0F6DFF 0%, #005CEA 100%);
+                                border-radius: 12px;
+                                border: none;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.01em;
+                                color: #FFFFFF;
+                                cursor: pointer;
+                            }
+                        }
+                        .menu__footer{
+                            width: 100%;
+                            height: 100%;
+                            margin-top: 56px;
+                            .menufooter__container{
+                                display: flex;
+                                gap: 217px;
+                                width: 100%;
+                                .borrowers{
+                                    width: 192px;
+                                    height: 367px;
+                                    display: grid;
+                                    .headitem{
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 24px;
+                                        line-height: 33px;
+                                        letter-spacing: 0.01em;
+                                        
+                                        /* #FFFFFF */
+                                        
+                                        color: #FFFFFF;
+                                    }
+                                    .item{
+                                        font-style: normal;
+                                        font-style: 16px;
+                                        line-height: 21px;
+                                        color:#9FC3F7;
+                                    }
+                                }
+                                .infocenter{
+                                    width: 291px;
+                                    height: 367px;
+                                    display: grid;
+                                    .headitem{
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 24px;
+                                        line-height: 33px;
+                                        letter-spacing: 0.01em;
+                                        
+                                        /* #FFFFFF */
+                                        
+                                        color: #FFFFFF;
+                                    }
+                                    .item{
+                                        font-style: normal;
+                                        font-style: 16px;
+                                        line-height: 21px;
+                                        color:#9FC3F7;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .moreinfo{
+                width: 100%;
+                height: 100%;
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                .firstinfo{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: rgba(159, 195, 247, 0.26);
+                    .item{
+                        font-style: normal;
+                        font-style: 16px;
+                        line-height: 21px;
+                        color:#9FC3F7;
+                    }
+                }
+                .second{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: rgba(159, 195, 247, 0.26);
+                    .item{
+                        font-style: normal;
+                        font-style: 16px;
+                        line-height: 21px;
+                        color:#9FC3F7;
+                    }
+                }
+                .third{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: 0.01em;
+                    color: rgba(159, 195, 247, 0.26);
+                    .item{
+                        font-style: normal;
+                        font-style: 16px;
+                        line-height: 21px;
+                        color:#9FC3F7;
+                    }
+                }
+            }
+        }
+    }
+}
