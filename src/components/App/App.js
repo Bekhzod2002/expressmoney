@@ -7,6 +7,8 @@ import "./App.scss";
 import HowReceive from "../../pages/HowReceive/HowReceive";
 import Repay from "../../pages/Repay/Repay";
 import ProgramLoyalty from "../../pages/ProgramLoyalty/Loyalty";
+import About from "../../pages/Aboutcompany/About";
+import Answers from "../../pages/Answers/Answers";
 const AppContainer = styled.div`
   width: 100%;
   height: auto;
@@ -30,8 +32,8 @@ function App() {
           <Route path="/how-to-receive" element={<HowReceive />} />
           <Route path="/repay" element={<Repay />} />
           <Route path="/loyalty" element={<ProgramLoyalty />} />
-          <Route />
-          <Route />
+          <Route path="/Aboutcompany" element={<About /> } />
+          <Route path="/Answers" element={<Answers/>} />
         </Routes>
       </AppHomecontainer>
     </AppContainer>

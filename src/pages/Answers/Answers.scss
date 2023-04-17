@@ -1,0 +1,97 @@
+.Answers_page{
+    width: 100%;
+    height: 100%;
+    .Answers__container{
+        width: 100%;
+        height: 100%;
+        .answers__head{
+            width: 100%;
+            margin-top: 18px;
+            justify-content: center;
+            display: flex;
+            .answerhead__container{
+                width: 100%;
+                max-width: 1200px;
+                .top_path_links {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 5.5px;
+                    .top_path_links-first-step {
+                      opacity: 0.5;
+                    }
+                    span {
+                      padding-top: 5px;
+                      opacity: 0.5;
+                    }
+                    .top_path_links-second-step {
+                      opacity: 1;
+                    }
+                }
+            }
+        }
+        .ans_ques{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .ansques__container{
+                width: 708px;
+                height: 122.5px;
+                text-align: center;
+                .ans_head{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 55px;
+                    letter-spacing: 0.01em;
+                    color: #262B40;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+                img{
+                    margin-top: 15px;
+                }
+                p{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 25px;
+                    letter-spacing: 0.01em;
+                    color: #848BA4;
+                    flex: none;
+                    order: 2;
+                    flex-grow: 0;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .womanworking{
+            margin-top: 30px;
+        }
+        .popularquestions{
+            width: 100%;
+            margin-top: 80px;
+            .popular__container{
+                width: 100%;
+                text-align: center;
+                .popularhead{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 55px;
+                    letter-spacing: 0.01em;
+                    color: #222738;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+                img{
+                    margin-top: 15px;
+                }
+            }
+        }
+
+    }
+}

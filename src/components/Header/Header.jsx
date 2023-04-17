@@ -25,8 +25,8 @@ const Header = () => {
             <Link to="/loyalty" className="item">
               Программа лояльности
             </Link>
-            <Link className="item">О компании</Link>
-            <Link className="item">F.A.Q</Link>
+            <Link to="/Aboutcompany" className="item">О компании</Link>
+            <Link to="Answers" className="item">F.A.Q</Link>
           </div>
           <div className="contact__us">
             <p className="phonenumber">8 800 700 91 15</p>

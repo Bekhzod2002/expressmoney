@@ -35,7 +35,7 @@ const HowReceive = () => {
                 <FaChevronRight />
               </span>
               <Link className="top_path_links-second-step" to="/how-to-receive">
-                Как получить{" "}
+                О компании{" "}
               </Link>
             </div>
           </div>

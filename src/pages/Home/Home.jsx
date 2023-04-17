@@ -20,7 +20,7 @@ import carts from '../../assets/images/carts.png'
 import arrow from "../../assets/images/double_arrow.png";
 import "./Home.scss";
 import Button from "../../components/Button/Button";
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/Footer/footer";
 import { ReactComponent as ArrowRightSvg } from "../../assets/svg/ArrowRight.svg";
 import { Link } from "react-router-dom";
 import smile_man from "../../assets/images/smile_man.png";
